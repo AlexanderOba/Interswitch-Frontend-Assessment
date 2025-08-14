@@ -242,7 +242,7 @@ const FundsTransfer: React.FC = () => {
 
       {/* Transfer Form */}
       {!transferResult && (
-        <div className="bg-white rounded-lg shadow-md p-6 w-1/2 mx-auto">
+        <div className="bg-white rounded-lg shadow-md p-6 w-full md:w-1/2 mx-auto">
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Source Account */}
             <div>
