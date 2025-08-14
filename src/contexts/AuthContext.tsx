@@ -59,7 +59,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       if (email === 'demo@bank.com' && password === 'demo1235') {
         const userData: User = {
           id: '1',
-          name: 'John Doe',
+          name: 'Alexander Oba',
           email: 'demo@bank.com',
           accessToken: 'mock-access-token-' + Date.now()
         };
